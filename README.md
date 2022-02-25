@@ -6,18 +6,18 @@
 
 ### install 
 ```
-npm install count-down --save  
+npm install vue-count-down-time --save  
 
-Vue.use(CountDown)
+Vue.use(VueCountDownTime)
 ```  
 
 ### main.js 
 
 ```
-import CountDown from 'count-down'
+import VueCountDownTime from 'vue-count-down-time'
 ```  
 ###  App.vue 
 
 ```
-<count-down></count-down>
+<vue-count-down-time-time></vue-count-down-time-time>
 ```  
