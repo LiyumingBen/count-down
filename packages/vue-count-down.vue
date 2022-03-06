@@ -16,7 +16,7 @@
 
 <script>
 export default {
-	name: "vue-count-down-time",
+	name: "count-down-time-vue",
 	data: () => ({
 		days: "0",
 		hours: "00",

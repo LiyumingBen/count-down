@@ -1,7 +1,7 @@
 <template>
 	<!-- countDown: 剩余时间   end：到期时间 isMiniSecond： 毫秒还是秒 -->
 	<div>
-		<vue-count-down-time
+		<count-down-time-vue
 			v-slot="timeObj"
 			:time="countDown"
 			:isMiniSecond="isMiniSecond"
@@ -12,9 +12,9 @@
 					timeObj.ss
 				}}秒
 			</div>
-		</vue-count-down-time>
+		</count-down-time-vue>
 
-		<vue-count-down-time
+		<count-down-time-vue
 			v-slot="timeObj"
 			:time="countDown1"
 			:isMiniSecond="isMiniSecond1"
@@ -25,7 +25,7 @@
 					timeObj.ss
 				}}秒
 			</div>
-		</vue-count-down-time>
+		</count-down-time-vue>
 	</div>
 </template>
 
